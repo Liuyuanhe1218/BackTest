@@ -1,0 +1,19 @@
+{
+    "https_url": "fapi.binance.com",
+    "https_port": "443",
+    "https_target_prifix": "/fapi/v1/depth?",
+
+    "wss_url": "fstream.binance.com",
+    "wss_port": "443",
+    "wss_target_prifix": "/ws",
+
+    "io_thread_num": "8",
+    "depth_snapshot_limit": "1000",
+    "data_path": "/data/future/",
+
+    "data_type" : ["trade", "depth", "bookTicker"],
+    "symbols": ["btcusdt", "xrpusdt", "ethusdt", "fdusdusdt", "xlmusdt", "solusdt", "pepeusdt", "dogeusdt", "hbarusdt", 
+    "adausdt", "penguusdt", "bnbusdt", "suiusdt", "linkusdt", "ftmusdt", "usualusdt", "pnutusdt", "trxusdt", "phausdt", 
+    "cvcusdt", "actusdt", "aaveusdt", "wifusdt", "enausdt", "ltcusdt", "troyusdt", "agldusdt", "crvusdt", "wldusdt", 
+    "algousdt"]
+}
